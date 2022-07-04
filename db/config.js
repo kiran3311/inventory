@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
-
-mongoose.connect("mongodb+srv://kiran:kiran26@cluster0.7hbp2.mongodb.net/product?retryWrites=true&w=majority", 
-    ()=>{console.log('connected to DB')});
+const mongoose= require('mongoose');
+mongoose.connect("mongodb://localhost:27017/inventory", ()=>{
+    console.log('connected to DB')
+})
